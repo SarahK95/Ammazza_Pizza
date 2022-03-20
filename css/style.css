@@ -91,6 +91,14 @@ img{
     text-transform: uppercase;
 }
 
+.section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container{
     width: 90%;
     max-width: 1000px;
@@ -98,4 +106,10 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container .left{
+    width: 50%;
+    height: 600px;
+    background: url('/images/p18.jpg') no-repeat center / cover;
 }

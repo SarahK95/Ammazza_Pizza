@@ -113,3 +113,27 @@ img{
     height: 600px;
     background: url('/images/p18.jpg') no-repeat center / cover;
 }
+
+.right{
+    width: 50%;
+    min-height: 400px;
+    background-color: rgba(128, 128, 128, 0.473);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+
+}
+
+.right h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: sienna;
+}
+
+.right p{
+    margin: 20px 0;
+    line-height: 20px;
+}

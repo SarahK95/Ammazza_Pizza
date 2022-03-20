@@ -68,3 +68,12 @@ nav ul li a.active{
     left: 0;
     top: 0;
 }
+
+img{
+    position: absolute;
+    width: 120%;
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%, -50%)
+
+}

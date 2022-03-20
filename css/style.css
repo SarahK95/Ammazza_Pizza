@@ -78,3 +78,15 @@ img{
     background: sienna;
     font-weight: bold;
 }
+
+.welcome p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.s1 {
+    color: sienna;
+    text-transform: uppercase;
+}

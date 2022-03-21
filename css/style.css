@@ -73,7 +73,7 @@ img{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     box-sizing: border-box;
     background: sienna;
     font-weight: bold;
@@ -153,7 +153,7 @@ img{
 
 .menu-con{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -169,9 +169,9 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: #000;
+    color: sienna;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
 }
 
 .menu-con h3{
@@ -180,7 +180,22 @@ img{
     font-weight: bold;
 }
 
+.menu P{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
 /* order page */
+
+.order h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    color: sienna;
+    font-weight: bold;
+}
 
 .order1{
     width: 100%;
@@ -224,6 +239,14 @@ img{
   }
 
   #add{
+
+    margin-top: 30px;
+    background-color: sienna;
+    margin-left: 2.5rem ;
+    
+  }
+
+  #check{
 
     margin-top: 30px;
     background-color: sienna;

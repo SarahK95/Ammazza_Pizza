@@ -201,7 +201,24 @@ img{
     font-weight: bold;
 }
 
-.row{
+ .row{
     margin-left: 5.5rem;
     width: 80%;
-}
+} 
+
+.col-md-3.col-sm-12 {
+    text-align: center;
+  }
+
+  .btn{
+
+    margin-top: 30px;
+    background-color: sienna;
+    
+
+  }
+
+  th{
+      color: sienna;
+      margin-top: 10px;
+  }

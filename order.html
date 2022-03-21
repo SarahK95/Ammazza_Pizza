@@ -45,6 +45,7 @@
                 <!-- <img class="type1" src="images/p9.jpg" width="50%"> -->
                 <h3>TYPE</h3>
                 <select class="form-control type">
+                    <option selected> Choose Type:</option>
                     <option label="Meat">Meat</option>
                     <option label="Chicken">Chicken</option>
                     <option label="Veg">Vegeterian</option>
@@ -57,6 +58,7 @@
                 <!-- <img class="size1" src="images/p18.jpg" width="50%"> -->
                 <h3>SIZE</h3>
                 <select class="form-control size">
+                    <option selected> Choose Size:</option>
                     <option label="Small" value="500">Small</option>
                     <option label="Medium" value="700">Medium</option>
                     <option label="Large" value="1000">Large</option>
@@ -69,6 +71,7 @@
                 <!-- <img class="top1" src="images/toppings.jpg" width="59%"> -->
                 <h3>TOPPINGS</h3>
                 <select class="form-control toppings">
+                    <option selected> Choose Toppings:</option>
                     <option label="Olives" value="100">Olives</option>
                     <option label="Cheese" value="50">Cheese</option>
                     <option label="Pepperoni" value="80">Pepperoni</option>
@@ -77,31 +80,47 @@
 
             <!-- crust of pizza -->
 
-             <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12">
                 <!-- <img class="crust1" src="images/b4.jpg" width="42%"> -->
                 <h3>CRUST</h3>
                 <select class="form-control crust">
-                    <option label="Stuffed" value="500">Stuffed</option>
+                    <option selected> Choose Crust:</option>
+                   <option label="Stuffed" value="500">Stuffed</option>
                    <option label="Gluten-Free" value="200">Gluten-Free</option>
                    <option label="Crispy" value="300">Crispy</option>
                 </select>
             </div> 
-
-
-
-
-
         </div>
+
         
-
-       
-
-           
-
-
-
-        </div>
     </div>
+
+    <div class="text-center">
+        <button class="btn btn-info order" type="submit">Order</button>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Order No.</th>
+            <th scope="col"> Type</th>
+            <th scope="col"> Size</th>
+            <th scope="col">Toppings</th>
+            <th scope="col">Crust</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="pizza">
+          <tr>
+            <th scope="row">1</th>
+            <td id="type"></td>
+            <td id="size"></td>
+            <td id="toppings"></td>
+            <td id="crust"></td>
+            <td id="total"></td>
+          </tr>
+        </tbody>
+      </table>
 
 
 

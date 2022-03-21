@@ -1,7 +1,19 @@
-// var sizePrice;
-// var toppingPrice;
-// var crustPrice;
-// var totalPrice;
+var sizePrice;
+var toppingPrice;
+var crustPrice;
+var totalPrice;
+
+
+function pizza (type,size,toppings,crust,total,orderNo){
+
+    this.type = type;
+    this.size = size;
+    this.toppings = toppings;
+    this.crust = crust;
+    this.total = total;
+    this.orderNo = orderNo;
+
+}
 
 
 
@@ -26,16 +38,7 @@ $(document).ready(function(){
         $("#total").html(total);
 
       
-function pizza (type,size,toppings,crust,total,orderNo){
 
-    this.type = type;
-    this.size = size;
-    this.toppings = toppings;
-    this.crust = crust;
-    this.total = total;
-    this.orderNo = orderNo;
-
-}
         
 
 

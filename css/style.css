@@ -91,7 +91,7 @@ img{
     text-transform: uppercase;
 }
 
-.section{
+/* .section{
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -99,7 +99,7 @@ img{
     justify-content: center;
 }
 
-/* .container{
+.container{
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
@@ -137,7 +137,7 @@ img{
 .right p{
     margin: 20px 0;
     line-height: 20px;
-} */
+}  */
 
  /* .right a{
     text-decoration: none;
@@ -246,6 +246,31 @@ img{
     
   }
 
+  #complete{
+
+    margin-top: 30px;
+    background-color: sienna;
+    margin-left: 2.5rem ;
+    
+  }
+
+  #yes{
+
+    margin-top: 30px;
+    background-color: sienna;
+    margin-left: 2.5rem ;
+    
+  }
+
+  
+  #no{
+
+    margin-top: 30px;
+    background-color: sienna;
+    margin-left: 2.5rem ;
+    
+  }
+
   #check{
 
     margin-top: 30px;
@@ -253,3 +278,16 @@ img{
     margin-left: 2.5rem ;
     
   }
+  
+  .more-info{
+      margin-top: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+
+  footer{
+      margin-top: 30px;
+      background: rgba(160, 81, 45, 0.315);
+  }
+

@@ -210,7 +210,7 @@ img{
     text-align: center;
   }
 
-  .btn{
+  #order{
 
     margin-top: 30px;
     background-color: sienna;
@@ -221,4 +221,12 @@ img{
   th{
       color: sienna;
       margin-top: 10px;
+  }
+
+  #add{
+
+    margin-top: 30px;
+    background-color: sienna;
+    margin-left: 2.5rem ;
+    
   }

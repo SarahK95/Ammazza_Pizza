@@ -182,3 +182,7 @@ img{
 
 /* order page */
 
+.order{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
